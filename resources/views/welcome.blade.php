@@ -7,18 +7,18 @@
     <title>ShopLaravel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Body styling */
+        
         body {
-            background-color: #f8fafc; /* Warna latar terang */
-            color: #334155; /* Warna teks biru gelap */
+            background-color: #f8fafc; 
+            color: #334155; 
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
         }
 
-        /* Navbar styling */
+        
         .navbar {
-            background-color: #00008B; /* Biru utama */
+            background-color: #00008B; 
         }
 
         .navbar a {
@@ -31,7 +31,7 @@
         }
 
         .btn-primary {
-            background-color: #1e40af; /* Biru gelap */
+            background-color: #1e40af; 
             border: none;
         }
 
@@ -48,9 +48,9 @@
             color: #2563eb;
         }
 
-        /* Hero Section */
+       
         .hero {
-            background: linear-gradient(45deg, #2563eb, #1e40af); /* Gradasi biru */
+            background: linear-gradient(45deg, #2563eb, #1e40af); 
             color: white;
             padding: 100px 0;
             text-align: center;
@@ -68,7 +68,7 @@
             font-weight: 300;
         }
 
-        /* Features Section */
+        
         .features {
             padding: 80px 20px;
             text-align: center;
@@ -104,7 +104,7 @@
             font-size: 1.1rem;
         }
 
-        /* Footer Styling */
+        
         .footer {
             background-color: #2563eb;
             color: #ffffff;
@@ -112,7 +112,7 @@
             padding: 40px 20px;
         }
 
-        /* Responsiveness */
+        
         @media (max-width: 767px) {
             .hero h1 {
                 font-size: 2.5rem;
@@ -126,7 +126,7 @@
 </head>
 
 <body>
-    <!-- Navbar -->
+    
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Web Toko Group 6</a>
@@ -152,7 +152,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    
     <header class="hero">
         <div class="container">
             <h1>Selamat Datang di Web Toko Group 6</h1>
@@ -161,7 +161,7 @@
         </div>
     </header>
 
-    <!-- Features Section -->
+    
     <section id="features" class="features">
         <div class="container">
             <h2>Fitur Unggulan</h2>
@@ -194,7 +194,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    
     <footer class="footer">
         <p>&copy; 2025 Web Toko Group 6. All Rights Reserved.</p>
     </footer>

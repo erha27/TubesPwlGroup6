@@ -11,7 +11,7 @@
                 <div class="p-6">
                     <h1 class="mb-6 text-2xl font-bold">Kelola Pengguna</h1>
 
-                    <!-- Form untuk assign role -->
+                    
                     <form action="{{ route('users.assignRole') }}" method="POST" class="mb-6">
                         @csrf
                         <div class="grid grid-cols-2 gap-4">
@@ -44,7 +44,7 @@
                         </div>
                     </form>
 
-                    <!-- Daftar Pengguna -->
+                    
                     <h2 class="mb-4 text-xl font-semibold">Daftar Pengguna</h2>
                     <table class="min-w-full border-collapse border border-blue-300">
                         <thead class="bg-blue-700 text-white">

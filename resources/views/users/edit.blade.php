@@ -14,21 +14,21 @@
                         @csrf
                         @method('PUT')
 
-                        <!-- Name Input -->
+                        
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Name</label>
                             <input type="text" name="name" id="name" value="{{ old('name', $user->name) }}" required
                                 class="block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
                         </div>
 
-                        <!-- Email Input -->
+                        
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Email</label>
                             <input type="email" name="email" id="email" value="{{ old('email', $user->email) }}" required
                                 class="block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
                         </div>
 
-                        <!-- Role Selection -->
+                        
                         <div>
                             <label for="role" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Role</label>
                             <select name="role" id="role" required
@@ -40,7 +40,7 @@
                             </select>
                         </div>
 
-                        <!-- Submit Button -->
+                        
                         <div class="flex justify-end">
                             <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Update</button>
                             <a href="{{ route('users.index') }}" class="ml-4 px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600">Cancel</a>

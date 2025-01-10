@@ -27,7 +27,7 @@
                         @csrf
                         @method('PUT')
 
-                        <!-- Product Code -->
+                        
                         <div class="flex items-center space-x-4">
                             <label for="code" class="w-1/3 text-sm font-medium text-white dark:text-gray-300 text-right">
                                 Product Code
@@ -38,7 +38,7 @@
                             </div>
                         </div>
 
-                        <!-- Product Name -->
+                        
                         <div class="flex items-center space-x-4">
                             <label for="name" class="w-1/3 text-sm font-medium text-white dark:text-gray-300 text-right">
                                 Product Name
@@ -49,7 +49,7 @@
                             </div>
                         </div>
 
-                        <!-- Buying Price -->
+                        
                         <div class="flex items-center space-x-4">
                             <label for="price_buy" class="w-1/3 text-sm font-medium text-white dark:text-gray-300 text-right">
                                 Buying Price
@@ -60,7 +60,7 @@
                             </div>
                         </div>
 
-                        <!-- Selling Price -->
+                        
                         <div class="flex items-center space-x-4">
                             <label for="price_sell" class="w-1/3 text-sm font-medium text-white dark:text-gray-300 text-right">
                                 Selling Price
@@ -71,7 +71,7 @@
                             </div>
                         </div>
 
-                        <!-- Stock -->
+                        
                         <div class="flex items-center space-x-4">
                             <label for="stock" class="w-1/3 text-sm font-medium text-white dark:text-gray-300 text-right">
                                 Stock
@@ -82,7 +82,7 @@
                             </div>
                         </div>
 
-                        <!-- Branch -->
+                        
                         <div class="flex items-center space-x-4">
                             <label for="branch_id" class="w-1/3 text-sm font-medium text-white dark:text-gray-300 text-right">Branch</label>
                             <div class="w-2/3">
@@ -97,7 +97,7 @@
                             </div>
                         </div>
 
-                        <!-- Buttons -->
+                        
                         <div class="flex justify-end space-x-4">
                             <button type="submit" class="px-6 py-3 bg-blue-800 text-white rounded-md hover:bg-blue-900">
                                 Update

@@ -11,7 +11,7 @@
                 <div class="p-6">
                     <h1 class="mb-4 text-2xl font-bold">Stock Report</h1>
                     
-                    <!-- Table -->
+                    
                     <div class="overflow-x-auto">
                         <table class="min-w-full table-auto border-collapse border border-blue-300">
                             <thead class="bg-blue-700 text-white">
